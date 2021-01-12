@@ -1,0 +1,81 @@
+/* import fonts to use */
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Raleway;
+}
+/* Style the navbar */
+ul {
+  float: center;
+  list-style-type: none;
+  margin-top: 0px;
+  margin-right: 10px;
+}
+/* Change background color of navbar */
+.navbar {
+  background-color: #ffffff;
+  overflow: hidden;
+}
+
+/* Style links inside navar */
+.navbar a {
+  float: left;
+  color: #000000;
+  text-align: center;
+  padding: 25px 40px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #f2f2f2;
+  transition: .75s ease;
+}
+
+/* Change color of current link */ /*
+.navbar a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+*/
+.container{
+  background-color: #909090;
+}
+h1{
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 60px;
+}
+p{
+  color: #ffffff;
+  text-align: center;
+  font-size: 25px;
+}
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+}
+
+button{
+  border: 2px solid #ffffff;
+  border-radius: 10px;
+  background-color: #ffffff00;
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  margin: auto;
+  padding: 25px 15px;
+  display: inline-block;
+  cursor: pointer;
+  width: 500px;
+}
+button:hover{
+  background-color: rgba(255, 255, 255, 0.1);
+  transition: .65s ease;
+}
