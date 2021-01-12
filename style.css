@@ -1,0 +1,67 @@
+/* import fonts to use */
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Raleway;
+}
+/* Change background image */
+header{
+  background-image: linear-gradient(rgba(0, 0, 0, .45), rgba(0, 0, 0, .45)), url(https://i.pinimg.com/originals/62/e6/2d/62e62d07d8198a3313058a607d42971b.jpg);
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+ul {
+  float: center;
+  list-style-type: none;
+  margin-top: 0px;
+  margin-right: 10px;
+}
+/* Change background color of navbar */
+.navbar {
+  background-color: #ffffff;
+  overflow: hidden;
+}
+
+/* Style links inside navar */
+.navbar a {
+  float: left;
+  color: #000000;
+  text-align: center;
+  padding: 25px 40px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color:#f2f2f2;
+  transition: .75s ease;
+}
+
+/* Change color of current link */ /*
+.navbar a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+*/
+
+.title {
+  position: absolute;
+  color: #ffffff;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.title p{
+  font-size: 35px;
+  text-align: center;
+  padding-top: 10px;
+}
+.title h1{
+  color: #ffffff;
+  font-size: 80px;
+  text-align: center;
+}
