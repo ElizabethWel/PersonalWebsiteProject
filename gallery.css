@@ -1,0 +1,96 @@
+/* import fonts to use */
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Raleway;
+}
+/* Style the navbar */
+ul {
+  float: center;
+  list-style-type: none;
+  margin-top: 0px;
+  margin-right: 10px;
+}
+/* Change background color of navbar */
+.navbar {
+  background-color: #ffffff;
+  overflow: hidden;
+}
+
+/* Style links inside navar */
+.navbar a {
+  float: left;
+  color: #000000;
+  text-align: center;
+  padding: 25px 40px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #f2f2f2;
+  transition: .75s ease;
+}
+
+/* Change color of current link */ /*
+.navbar a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+*/
+
+h1{
+  margin-bottom: 2rem;
+  text-align: center;
+  font-size: 45px;
+}
+p{
+  margin-bottom: 2rem;
+  text-align: center;
+  font-size: 25px;
+}
+.container {
+	max-width: 100rem;
+	margin: 0 auto;
+	padding: 0 2rem 2rem;
+}
+gallery{
+  display: block;
+  flex-direction: row;
+}
+div.gallery {
+  margin: 5px 25px 5px;
+  border: 1px solid #fff;
+  float: left;
+  /*width: 180px;*/
+  width: 30rem;
+}
+/* Change boxes when hovered */
+div.gallery:hover {
+  box-shadow: 5px 5px 5px #888888;
+  transform: scale(1.015);
+  transition: ease .5s;
+}
+div.gallery img:hover{
+  transform: scale(1);
+  transition: ease .5s;
+}
+/* Prevents images from overlapping */
+div.gallery img {
+  width: 100%;
+  height: 40rem;
+}
+/* Alters width of image caption */
+div.caption {
+  padding: .85rem;
+  text-align: center;
+}
+.row1{
+  display: inline-block;
+}
+.row2{
+  display: inline-block;
+}
